@@ -1,0 +1,64 @@
+Menu User:
+-home
+-about
+-service
+-contact
+-staff
+-login
+-register
+	field: nama, nomor pelanggan, jenis kelamin, lamat, no hp //
+
+Menu admin
+-Daftar user  (Menampilkan Seluruh User yang sudah menjadi member//
+
+-Input / Edit user/pelanggan baru (Si Kasir dapat Menginput baru atu meng edit Pelanggan)
+                      Field:  nama, nomor pelanggan, jenis kelamin, lamat, no. hp//
+
+-Daftar booking ====> Sesuai no Antrian (kalau ini si pelanggan datang ke barbershop)
+          Contoh Form  :  No ANtrian :
+                       : Nama Pelanggan: 
+                       : Jadwal Kedatangan :
+                       : Service :
+                       : Staff ://
+ 
+-Daftar Booking panggilan (?) ====> (Jika Pelanggan Mau panggil tukang : Cukur, reflexy dll si admin bisa input juga )
+          Contoh Form  : Nama Pelanggan : Budi
+                         Jadwal : Hari Senin, 01-02-2020 
+                         Pukul : Jam 14.00 
+                         Service / paket : Pijat Massage
+                         Staff/Tenaga : (Nama Staff)
+-struk pembayaran
+	Tampilakn : Tampilkan logo Di atas dan bawah Logo nya Alamat dan No HP
+	Filed nya : no struk, no pelanggan, paket/service, nama staff, harga //
+
+- Input dan Edit Form Stock barang
+   Kete : stok barang (?) ========> ini buat form lagi buat daftar barang (Form Barang kaya Stock barang aja kang buat aja sekitar 15 Kolom kosong yg isi tugasnya si Admin)//
+
+
+
+Menu administrator
+- daftar user/Pelanngan//
+- daftar user harian
+- daftar karyawan//
+
+- edit karyawan//
+- input karyawan baru
+	field: id, foto, nama karyawan, tgl masuk, umur alamat, jabatan//
+- cetak slip gaji
+- uang yang masuk (?) ====== > (Jumlah Pendapatan Uang yang masuk itu keliatan dari Struk yang keluar Kang)
+- stok barang (?) ========> Menampilkan Stock barang yang sudah di input Oleh si Admin/Kasir//
+
+Daftar yang harus dirubah:
+	Tampilan layout sesuai dengan link
+	paket cukur sesuai yang di kirim via WA ada daftar dan harga =====>  (Di WA kemarin kan ada Foto Paket2 Harga nah itu kan Paket2 Cukur aja )//
+	tambahan service : service panggilan, cukur anak, terapis, reflexiology , dan lainnya (?)  ====== > (Ini tambahan Service nya di masukan ke Service dan di Front Pun dio tampilkan Dalam bentul list berbarengan dengan Daftar harga Cukur itu)//
+
+yang belum beres:
+   Menu admin
+   1. Daftar Booking panggilan//
+   2. struk pembayaran//
+
+   Menu administrator:
+   2. Slip Gaji karyawan pdf//
+   3. uang masuk//
+   4. stok barang//

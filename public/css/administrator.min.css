@@ -1,0 +1,263 @@
+.login-page{
+    position: relative;
+    top: 120px;
+  }
+.login-header{
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    text-align: center;
+}
+.login-header h2{
+    color:#333;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Segoe UI;
+    margin: 20px 0;
+}
+.login-body{
+    padding: 0 1.25rem;
+}
+.icon-field{
+    position: absolute;
+    top: 15px;
+    width: 20px !important;
+    height: 20px;
+}
+.input-control{
+    padding-left: 25px;
+    width: 85% !important;
+}
+.btn-login{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 20px 0;
+}
+.contents{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:
+    #fff;
+    background-clip: border-box;
+    border: 2px solid
+    rgba(102, 92, 92, 0.52);
+    border-radius: 10px;
+}
+.ads-home{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    transition: padding-left 0.3s ease 0s;
+}
+.ads-sidebar{
+    left: 0;
+    top: 0;
+    z-index: 99;
+    overflow: hidden;
+    background: #303641;
+    box-shadow: 2px 0 32px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease 0s;
+    padding-right: 0;
+}
+@media only screen and (min-device-width: 720px){
+  .webHide{
+    display: none !important;
+  }
+}
+@media only screen and (min-device-width: 400px) and (max-device-width: 982px){
+  .mobileHide{
+    display: none !important;
+  }
+}
+.ads-header{
+    padding: 19px 0;
+    background: #303641;
+    border-bottom: 1px solid #343350;
+    width: 100%;
+}
+.ads-logo{
+    text-align: center;
+}
+.ads-logo a{
+    display: inline-block;
+    color: #fff;
+    font-family: Segoe UI;
+}
+.ads-menu{
+    height: calc(100% - 100px);
+    overflow: hidden;
+    padding: 20px 10px 0 0;
+    transition: all 0.3s ease 0s;
+}
+.ads-inner{
+    overflow: hidden;
+    width: auto;
+    height: 534px;
+}
+.menuads{
+    list-style: none;
+    padding: 0;
+}
+.menuads li a{
+    position: relative;
+    display: block;
+    color: #8d97ad;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 15px;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+.menuads li a span{
+    margin-left: 10px;
+}
+.ht100{
+    height: 100%;
+}
+.ads-header{
+    padding: 19px 0;
+    background: #303641;
+    border-bottom: 1px solid #343e50;
+    width: 100%;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.ads-logo h2{
+    text-transform: uppercase;
+    font-family: Segoe UI;
+    font-size: 20px;
+}
+.openbtn{
+    font-size: 20px;
+    background-color: #303641;
+    color: #fff;
+    padding: 10px 150x;
+    border: none;
+    margin-left: 120px;
+}
+.sidepanel{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidepanel .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.sidepanel a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.tc{
+    text-align: center;
+}
+.adscontent{
+    width: 100%;
+    background: #F3F8FB;
+    padding: 0;
+}
+marquee{
+    background-color: #303641;
+    color: #fff;
+}
+.direction{
+    padding: 10px 0;
+    margin: 0;
+    font-family: font-awesome;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.main2{
+    background-color: #fff;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+.header-page{
+    position: relative;
+    font-family: "Open Sans", "Josefin Sans", "Roboto", "Roboto Slab", arial;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #333;
+    text-align: left;
+}
+.bl-blue{
+    border-left: .25rem solid #4e73df !important;
+}
+.mr-2{
+    margin-right: .5rem !important;
+}
+.t-blue{
+    color: #4e73df !important;
+}
+.t-ads{
+    font-size: .7rem;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+.t-gray{
+    color: #5a5c69 !important;
+    font-weight: 700 !important;
+}
+.t-abu{
+    color: #dddfeb !important;
+    font-weight: 900;
+}
+.finds{
+    position: absolute;
+    top: 5px;
+    right: -40px;
+}
+.bg-gray{
+    background-color: #bdb7b740 !important;
+}
+.t-green {
+    color: #1cc88a !important;
+}
+.bl-green{
+    border-left: .25rem solid #1cc88a !important;
+}
+.bl-navy{
+    border-left: .25rem solid #36b9cc !important;
+}
+.t-navy{
+    color: #36b9cc !important;
+}
+.bl-yellow{
+    border-left: .25rem solid #f6c23e !important;
+}
+.t-yellow{
+    color: #f6c23e !important;
+}
+.menuads a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.menuads li:hover{
+    background-color: #879293;
+}
+.img-circle{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50% !important;
+}
